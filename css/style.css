@@ -1,0 +1,15 @@
+
+.brand{
+height: 130px;
+width: 130px
+}
+.bar{
+	margin-left:200px;
+}
+.bar a {
+	margin-right:100px;
+}
+.bar a:last-child {
+	margin-right:0;
+
+}
