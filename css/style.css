@@ -1,6 +1,19 @@
+body {
+	margin:0px;
+}
 
+.navbar{
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	height:100px;
+	top:0;
+	left:0;
+	padding: 15px;
+
+}
 .brand{
-height: 130px;
+height: 100px;
 width: 130px
 }
 .bar{
@@ -11,5 +24,37 @@ width: 130px
 }
 .bar a:last-child {
 	margin-right:0;
+
+}
+.bar a {
+	text-decoration:blink; 
+	margin:30px;
+	text-transform: uppercase;
+}
+.bar a:hover {
+	font-weight: bold;
+	color: green;
+}
+.image{
+	margin-top: 80px;
+}
+.image img {
+    width: 100%;
+}
+.about-section {
+	padding: 15px;
+}
+.about-section h3 {
+	text-align: center;
+	font-size: 2vw;
+	letter-spacing: 0.22em;
+}
+
+.about-section p {
+	word-spacing: 0.1em;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	text-align: center;
+	letter-spacing: 0.1em;
 
 }
